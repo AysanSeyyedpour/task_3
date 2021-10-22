@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Vazir';
+}
+
+.container {
+    max-width: 90%;
+}
+
+.btn-outline-dark {
+    border-radius: 30px;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.card {
+    border: none;
+}
+
+a:hover {
+    color: rgb(159, 174, 28);
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .part_2 {
+        padding-right: 7rem;
+        padding-top: 1rem;
+    }
+}
